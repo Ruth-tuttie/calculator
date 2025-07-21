@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="calc-screen ">
+      <input class="js-display" readonly>
+    </div>
+
+      <div class="calc-operators js-number ">
+        <p onclick=" toDisplay('0') ">0</p>
+        <p onclick=" toDisplay('1') ">1</p>
+        <p onclick=" toDisplay('2') ">2</p>
+        <p onclick=" toDisplay('3') ">3</p>
+        <p onclick=" toDisplay('4') ">4</p>
+        <p onclick=" toDisplay('5') ">5</p>
+        <p onclick=" toDisplay('6') ">6</p>
+        <p onclick=" toDisplay('7') ">7</p>
+        <p onclick=" toDisplay('8') ">8</p>
+        <p onclick=" toDisplay('9') ">9</p>
+        <p onclick=" toDisplay('/') " class="num-operator">/</p>
+        <p onclick=" toDisplay('-') " class="num-operator" >-</p>
+        <p onclick=" toDisplay('+') " class="num-operator">+</p>
+        <p onclick=" toDisplay('*') " class="num-operator">*</p>
+        <p onclick=" toCalculate() "  class="num-operator">=</p>
+        <p onclick=" toClear('c') "   class="num-operator">c </p>
+      </div>
+  
+  </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
