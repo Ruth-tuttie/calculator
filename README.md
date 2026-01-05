@@ -4,20 +4,20 @@ calculator app performing baic mathematical operations with the help of Javascri
 
 TECHNOLOGIES
 
-CSS
-HTML
-JavaScript
+CSS,
+HTML,
+JavaScript,
 
 FEATURES
 
-Addition
-Subtraction
-Multiplication
-Division
+Addition,
+Subtraction,
+Multiplication,
+Division,
 
 WHAT I LEARNED
 
-DOM manipulation
-onClick
-functions
-methodes
+DOM manipulation,
+onClick attribute,
+JS functions,
+JS methodes
